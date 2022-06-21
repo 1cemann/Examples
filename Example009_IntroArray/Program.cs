@@ -10,10 +10,11 @@ int[] array = {1,11,23,41,51,61,77,88,99};
 array[0]=12;
 Console.WriteLine(array[4]);
 // 2 разных вывода массива
-int max = Max(
+int result = Max(
     Max(array[0], array[1], array[2]),
     Max(array[3], array[4], array[5]),
     Max(array[6], array[7], array[8]));
 
-Console.WriteLine(max);
+Console.WriteLine(result);
 
+// !!!!!!!!!!!!ЗАДАЧА ПОИСКА МАКСИМУМА ИЗ 9!!!!!!!!!!!!!!!!!!!!!!!!!
